@@ -30,3 +30,7 @@ class Sudoku3{
     console.log(this._hasil);
   }
 }
+
+var game = new Sudoku3(board_string)
+game.board()
+game.solve()
