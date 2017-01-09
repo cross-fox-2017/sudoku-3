@@ -25,5 +25,8 @@ class Sudoku3{
       return this._papan;
   }
 
-
+  solve(){
+    this._hasil = sudoku.solve(this._papan)
+    console.log(this._hasil);
+  }
 }
